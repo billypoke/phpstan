@@ -61,6 +61,12 @@ parameters:
 			path: repo/src/Core/Content/Media/Commands/DeleteNotUsedMediaCommand.php
 
 		-
+			rawMessage: PHPDoc tag @var with type array<array<string>> is not subtype of native type non-empty-array<mixed>.
+			identifier: varTag.nativeType
+			count: 1
+			path: repo/src/Core/Content/Media/Commands/GenerateThumbnailsCommand.php
+
+		-
 			rawMessage: 'Call to an undefined method object::assign().'
 			identifier: method.notFound
 			count: 1
